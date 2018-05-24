@@ -16,14 +16,14 @@ import { MaterialModule } from './material/material.module';
     AppComponent,
     PlayersComponent,
     DraftsComponent,
-    MaterialModule,
     DraftTypesComponent,
     WelcomeComponent,
     ManagersComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
